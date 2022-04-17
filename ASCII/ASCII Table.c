@@ -6,7 +6,7 @@
 int main()
 {
 	int value = 0;
-	printf("\n ASCII TABLE");
+	printf("\n ASCII TABLE ");
 	
 	for(value=0;value<128;value++)
 	{
