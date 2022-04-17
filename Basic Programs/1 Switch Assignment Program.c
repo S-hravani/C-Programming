@@ -24,7 +24,7 @@ UP:
 			     printf("\n Hello");
 			     break;
 			   
-	    case 'a':
+	        case 'a':
 			     printf("\n Hello");
 			     break;
 	     
@@ -32,29 +32,29 @@ UP:
 			     printf("\n Good Bye");
 			     break;
  
-     	case 'b':
+     	        case 'b':
 			     printf("\n Good Bye");
 			     break;
 
-	    case 'C':
+	        case 'C':
 			     printf("\n Have a Nice Day");
 			     break;
 
-	    case 'c':
+	        case 'c':
 			     printf("\n Have a Nice Day");
 			     break;
 
-	    case 'D':
+	        case 'D':
 			     printf("\n Good Day");
 			     break;
 
-	    case 'd':
+	        case 'd':
 			     printf("\n Good Day");
 			     break;
 
-         default:
-         	      printf("\n enter invalid character");
-         	      goto UP;
+                default:
+         	             printf("\n enter invalid character");
+         	             goto UP;
 	}	
 
 	getch();
