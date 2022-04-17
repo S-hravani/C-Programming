@@ -11,7 +11,7 @@ int main()
 	     printf("\n Enter the number to find whether it is Even or Odd = ");
 	     scanf("%d",&Num);
 	
-         if(Num == 0)
+             if(Num == 0)
 	     {
 		     printf("\n Given Number is Neutral");
 		     goto UP;
