@@ -26,26 +26,26 @@ UP:
 			     break;
 	     
 		case 'B':
-	    case 'b':
+	        case 'b':
 			     printf("\n Good Bye");
 			     break;
 
-	    case 'C':
+	        case 'C':
 		case 'c':
 			     printf("\n Have a Nice Day");
 			     break;
 
-	    case 'D':
-	    case 'd':
+	        case 'D':
+	        case 'd':
 			     printf("\n Good Day");
 			     break;
 
-        default:
-         	      printf("\n enter invalid character");
-         	      goto UP;
+                default:
+         	             printf("\n enter invalid character");
+         	             goto UP;
 	}
 		
-    printf("\nThanks for input");
+        printf("\nThanks for input");
 	
 	getch();
 	return 0;
