@@ -14,7 +14,7 @@ int main()
 	{
 		case 'A':
 		case 'a':
-	    case 'E':
+	        case 'E':
 		case 'e':
 		case 'I':
 		case 'i':
@@ -22,11 +22,11 @@ int main()
 		case 'o':
 		case 'U':
 		case 'u':
-		       printf("\n Entered letter is vowel");
-			   break;
+		            printf("\n Entered letter is vowel");
+			    break;
 		case 'B':
 		case 'b':
-	    case 'C':
+	        case 'C':
 		case 'c':
 		case 'D':
 		case 'd':
@@ -35,7 +35,7 @@ int main()
 		case 'G':
 		case 'g':
 		case 'H':
-	    case 'h':
+	        case 'h':
 		case 'J':
 		case 'j':
 		case 'K':
@@ -45,7 +45,7 @@ int main()
 		case 'M':
 		case 'm':
 		case 'N':
-	    case 'n':
+	        case 'n':
 		case 'P':
 		case 'p':
 		case 'Q':
@@ -55,7 +55,7 @@ int main()
 		case 'S':
 		case 's':
 		case 'T':
-	    case 't':
+	        case 't':
 		case 'V':
 		case 'v':
 		case 'W':
@@ -66,11 +66,11 @@ int main()
 		case 'y':
 		case 'Z':
 		case 'z':
-		         printf("\n entered letter is consonant");
+		           printf("\n entered letter is consonant");
 				 break;
 				         	   
-	    default:
-		        printf("\n entered letter is neither vowel nor consonant");
+	        default:
+		           printf("\n entered letter is neither vowel nor consonant");
 				break;
 						    
 	}
