@@ -7,7 +7,7 @@ int main()
 {
 	char ch = '\0';
 	
-	printf("\n characters in range - d to x");
+	printf("\n characters in range - d to x ");
 	
 	for(ch='d';ch<='x';ch++)
 	{
