@@ -14,7 +14,7 @@ int main()
 	{
 		case 'A':
 		case 'a':
-	    case 'E':
+	        case 'E':
 		case 'e':
 		case 'I':
 		case 'i':
@@ -22,12 +22,12 @@ int main()
 		case 'o':
 		case 'U':
 		case 'u':
-		       printf("\n\n Entered letter is vowel");
+		           printf("\n\n Entered letter is vowel");
 			   break;
 			   
-	    default:
-		        printf("\n\n entered letter is not vowel");
-				break;
+	        default:
+		           printf("\n\n entered letter is not vowel");
+		           break;
 						    
 	}
 	
