@@ -16,9 +16,9 @@ int main()
 	          scanf("%d",&num2);
 	 
 	          if(num1 == num2)
-              {
+                  {
 	            	printf("\n Both the numbers are Equal.");
-		            goto UP;
+		        goto UP;
 	          }
 	
 	          (num1>num2) ? printf("\n %d is maximum",num1) : printf("\n %d is maximum",num2);
