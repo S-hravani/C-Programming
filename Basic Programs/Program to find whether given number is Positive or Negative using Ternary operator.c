@@ -12,7 +12,7 @@ int main()
 	
 	(Num == 0) ? printf("\n Given number is Neutral") : ((Num>0) ? printf("\n Given number is Positive") : printf("\n Given number is Negative"));
 	
-     getch();
+         getch();
 	 return 0;	
 	
 }
