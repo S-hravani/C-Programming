@@ -14,7 +14,7 @@ int main()
 		printf("\n Enter the %d element = ",i+1);
 		scanf("%d",&value[i]);
 		
-		if(value[i]>Max)
+		if(i == 0 || value[i]>Max)
 		{
 			Max = value[i];
 		}
